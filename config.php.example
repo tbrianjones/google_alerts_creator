@@ -1,0 +1,41 @@
+<?php
+
+
+	// --- GOOGLE ACCOUNT SETTINGS -------------------------
+
+
+	define( 'GOOGLE_USERNAME', YOUR-GOOGLE-EMAIL-ADDRESS );
+	define( 'GOOGLE_PASSWORD', YOUR-GOOGLE-EMAIL-PASSWORD );
+
+
+	// --- ALERT SETTINGS ----------------------------------
+
+	
+	// alert frequency ( how often you recieve emails )
+	//	- as it happens: 0
+	//	- daily: 1
+	//	- weekly: 6
+	define( 'ALERT_FREQUENCY', 1 );
+	
+	// result type ( what to seaerch )
+	//	- everything: 7
+	//	- discussions: 8
+	//	- news: 1
+	//	- blogs: 4
+	//	- video: 9
+	//	- books: 22
+	define( 'ALERT_RESULT_TYPE', 7 );
+
+	// result quality filter
+	//	- best results: 0
+	//	- all results: 1
+	define( 'ALERT_QUALITY', 0 );
+	
+
+	// --- CURL SETTINGS ----------------------------------
+
+
+	define( 'GOOGLE_COOKIEFILE', 'cookies.txt' );
+	
+	
+?>
